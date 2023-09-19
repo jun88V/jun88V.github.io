@@ -22,7 +22,18 @@ $(function() {
 		stagger: .05
 	});
 
-	
+	gsap.to(".text-left", {
+		x: -120,
+		duration: 3,
+		scrollTrigger: ".text-left",
+	});
+
+	gsap.to(".text-right", {
+		x: 0,
+		duration: 3,
+		scrollTrigger: ".text-right",
+	});
+
 	pfSec.init();
 });
 

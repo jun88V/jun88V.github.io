@@ -16,6 +16,10 @@
 ================================= */
 .msec02 {background-color:#fff;height:100vh;padding:80px 0;overflow:hidden;box-sizing:border-box}
 .msec02 h3 {text-align:center}
+.msec02 .skill-list .flowing-animation .skill-txt {display:flex;width: calc((9000 * 100 / 1920)*1vw);height: calc((145 * 100 / 1920)*1vw);color:#efefef;font-size: calc((140 * 100 / 1920)*1vw);font-weight:700}
+.msec02 .skill-list .flowing-animation .text-right {transform:translateX(-120px)}
+.msec02 .skill-list .flowing-animation span {margin-right:15px}
+.msec02 .skill-list .flowing-animation span.point {color:#000}
 
 /* ==============================
  * msec03
